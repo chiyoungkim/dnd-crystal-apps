@@ -44,6 +44,18 @@ const apps = [
                 <button class="close-btn">&times;</button>
             </div>
             <!-- Add Arcanex app content here -->
+            <div class="arcanex">
+                Unlock Cost: Free
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
+            </div>
         `
     },
     {
@@ -56,6 +68,16 @@ const apps = [
             </div>
             <!-- Spellbook Sync app content -->
             <div class="spellbook-sync">
+                Unlock Cost: Free
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 <iframe class="responsive-iframe" src="https://magicalscrolls.com"></iframe>
             </div>
         `
@@ -100,12 +122,24 @@ const apps = [
             </div>
             <!-- Add Bestiary app content here -->
             <div class="bestiary">
+                Unlock Cost: Free for first monster each day, 50 gp for each one afterwards, or one-time 500 gp
+                <div class="statuses">
+                    <div class="disabled">Finna</div>
+                    <div class="disabled">Freya</div>
+                    <div class="disabled">Hennex</div>
+                    <div class="disabled">Indi</div>
+                    <div class="disabled">Lenka</div>
+                    <div class="disabled">Lila</div>
+                    <div class="disabled">Ragnar</div>
+                </div>
                 Usable once a day. Roll a DEX check to capture an image of the creature.
-                DC 8: Monster Name, CR, basic creature lore
-                DC 12: Resistances and Vulnerabilities
-                DC 15: Entity Type and Current HP (as %)
-                DC 20: Saving Throws and Skills 
-                DC 25: Actions, Bonus Actions, Legendary Actions Overview
+                <ul>
+                    <li>DC 8: Monster Name, CR, basic creature lore</li>
+                    <li>DC 12: Resistances and Vulnerabilities</li>
+                    <li>DC 15: Entity Type and Current HP (as %)</li>
+                    <li>DC 20: Saving Throws and Skills</li>
+                    <li>DC 25: Actions, Bonus Actions, Legendary Actions Overview</li>
+                </ul>
             </div>
         `
     },
@@ -119,7 +153,18 @@ const apps = [
             </div>
             <!-- Add Treasure Appraiser app content here -->
             <div class="treasure">
+                Unlock Cost: 10% of sales through a Treasure Appraiser-recommended buyers OR one-time 1,000 gp
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 TBD. Just ask DM for now.
+                Putting treasure into the app is free. BUT if you want to take it out, you need to pay 1% fees of the appraised treasure.
             </div>
         `
     },
@@ -133,6 +178,16 @@ const apps = [
             </div>
             <!-- Add Map app content here -->
             <div class="map">
+                Unlock Cost: Free
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 TBD. Just ask DM for now.
             </div>
         `
@@ -147,6 +202,16 @@ const apps = [
             </div>
             <!-- Add BardBox app content here -->
             <div class="bardbox">
+                Unlock Cost: Free to use, 1gp daily subscription OR one-time 200 gp
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 TBD. Just ask DM for now.
             </div>
         `
@@ -161,6 +226,16 @@ const apps = [
             </div>
             <!-- Add CrystalCast app content here -->
             <div class="crystalcast">
+                Unlock Cost: Free
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 TBD. Just ask DM for now.
             </div>
         `
@@ -175,24 +250,34 @@ const apps = [
             </div>
             <!-- Add Healmonger Helper app content here -->
             <div class="healhelp">
+                Unlock Cost: One-time 500 gp
+                <div class="statuses">
+                    <div class="disabled">Finna</div>
+                    <div class="disabled">Freya</div>
+                    <div class="disabled">Hennex</div>
+                    <div class="disabled">Indi</div>
+                    <div class="disabled">Lenka</div>
+                    <div class="disabled">Lila</div>
+                    <div class="disabled">Ragnar</div>
+                </div>
                 Coming Soon.
             </div>
         `
     },
-    {
-        name: "Rogue's Toolkit",
-        icon: "roguetool.png",
-        content: `
-            <div class="app-header">
-                <h2>Rogue's Toolkit</h2>
-                <button class="close-btn">&times;</button>
-            </div>
-            <!-- Add Rogue's Toolkit app content here -->
-            <div class="roguetool">
-                Ability to pick digital locks. If you have time to look through a tutorial, advantage on physical locks.
-            </div>
-        `
-    },
+    // {
+    //     name: "Rogue's Toolkit",
+    //     icon: "roguetool.png",
+    //     content: `
+    //         <div class="app-header">
+    //             <h2>Rogue's Toolkit</h2>
+    //             <button class="close-btn">&times;</button>
+    //         </div>
+    //         <!-- Add Rogue's Toolkit app content here -->
+    //         <div class="roguetool">
+    //             Ability to pick digital locks. If you have time to look through a tutorial, advantage on physical locks.
+    //         </div>
+    //     `
+    // },
     {
         name: "Arcane Architect",
         icon: "arcane.png",
@@ -203,6 +288,16 @@ const apps = [
             </div>
             <!-- Add Arcane Architect app content here -->
             <div class="arcane">
+                Unlock Cost: 100 gp per ritual OR one-time 750 gp
+                <div class="statuses">
+                    <div class="disabled">Finna</div>
+                    <div class="disabled">Freya</div>
+                    <div class="disabled">Hennex</div>
+                    <div class="disabled">Indi</div>
+                    <div class="disabled">Lenka</div>
+                    <div class="disabled">Lila</div>
+                    <div class="disabled">Ragnar</div>
+                </div>
                 Cast time of ritual spells is halved. Spells can be cast as ritual spells if they meet the following conditions:
                 <ul>
                     <li>Any level up to the total spellcasting level / 2 rounded down</li>
@@ -224,7 +319,25 @@ const apps = [
             </div>
             <!-- Add Spell Mart app content here -->
             <div class="spellmart">
+                Unlock Cost: Free, or Spell Mart Plus for 50 gp a month
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 Coming soon. Talk to DM.
+                </br>
+                Shipping Options:
+                <ul>
+                    <li>Standard: 5-7 days, 0 gp</li>
+                    <li>Power: 3-5 days, 10 gp</li>
+                    <li>Plus: 2 days, 20 gp</li>
+                    <li>Wish: now, 100 gp</li>
+                </ul>
             </div>
         `
     },
@@ -238,7 +351,25 @@ const apps = [
             </div>
             <!-- Add eFey app content here -->
             <div class="efey">
+                Unlock Cost: Free
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 Coming soon. Talk to DM.
+                </br>
+                Shipping Options:
+                <ul>
+                    <li>Standard: maybe 3-5 days, 0 gp</li>
+                    <li>Lawful: guaranteed 3-5 days, 10 gp or equivalent</li>
+                    <li>Expedited: guaranteed 1-3 days, 50 gp or equivalent</li>
+                    <li>Instant Gratification: now, 200 gp or equivalent</li>
+                </ul>
             </div>
         `
     },
@@ -252,7 +383,55 @@ const apps = [
             </div>
             <!-- Add Arming Zone app content here -->
             <div class="armzone">
+                Unlock Cost: Free, or Arming Zone Primal for 50 gp a month
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
                 Coming soon. Talk to DM.
+                </br>
+                Shipping Options:
+                <ul>
+                    <li>Standard: 5-7 days, 0 gp</li>
+                    <li>Action Surge: 3-5 days, 10 gp</li>
+                    <li>Primal: 2 days, 20 gp</li>
+                    <li>Fury: now, 100 gp</li>
+                </ul>
+            </div>
+        `
+    },
+    {
+        name: "Wish",
+        icon: "wish.png",
+        content: `
+            <div class="app-header">
+                <h2>Wish</h2>
+                <button class="close-btn">&times;</button>
+            </div>
+            <!-- Add Wish app content here -->
+            <div class="wish">
+                Unlock Cost: Free
+                <div class="statuses">
+                    <div class="enabled">Finna</div>
+                    <div class="enabled">Freya</div>
+                    <div class="enabled">Hennex</div>
+                    <div class="enabled">Indi</div>
+                    <div class="enabled">Lenka</div>
+                    <div class="enabled">Lila</div>
+                    <div class="enabled">Ragnar</div>
+                </div>
+                Coming soon. Talk to DM.
+                </br>
+                Shipping Options:
+                <ul>
+                    <li>Standard: 2-3 days, 10 gp</li>
+                    <li>Super: now, 50 gp</li>
+                </ul>
             </div>
         `
     },
@@ -291,6 +470,13 @@ function closeApp() {
     const appContainer = document.querySelector(".app-container");
     appContainer.style.display = "none";
 }
+
+const homeButton = document.getElementById("home-button");
+
+homeButton.addEventListener("click", () => {
+    closeApp();
+  });
+
 
 // // Fetch spells from the D&D Beyond API for a specific character
 // async function fetchSpells(characterId) {
